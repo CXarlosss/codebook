@@ -1,8 +1,10 @@
+// @ts-nocheck
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useCart } from "../../context";
 import { Rating } from "./Rating";
+import React from "react";
 
 export const ProductCard = ({product}) => {
     const { cartList, addToCart, removeFromCart } = useCart();

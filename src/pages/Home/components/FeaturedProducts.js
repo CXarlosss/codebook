@@ -1,7 +1,9 @@
+// @ts-nocheck
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { ProductCard } from "../../../components";
 import { getFeaturedList } from "../../../services";
+import React from "react";
 
 export const FeaturedProducts = () => {
   const [products, setProducts] = useState([]);
